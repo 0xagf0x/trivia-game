@@ -29,8 +29,13 @@
 .modal__inner__btn_container {
     margin-top: 48px;
     display: flex;
+    flex-direction: column;
 }
 
 .modal__inner__btn_container__item {
     margin: 0 10px;
+}
+
+.button_row {
+    display: flex;
 }
