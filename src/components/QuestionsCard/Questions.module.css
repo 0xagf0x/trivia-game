@@ -39,3 +39,16 @@
 .button_row {
     display: flex;
 }
+
+.results_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.results_container__text {
+    margin-top: 16px;
+}
+
+.results_container__text:last-of-type {
+    margin-bottom: 16px;
+}
